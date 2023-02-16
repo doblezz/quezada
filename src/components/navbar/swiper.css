@@ -1,0 +1,215 @@
+.Header_swipe{
+    min-height: 500px;
+    height: 100%;
+    max-height: 60vh;
+    min-width: 100%;
+    position: relative;
+}
+
+.Header_swipe .swiper-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.loadHeader{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 92, 164 );
+    background: linear-gradient(0deg, rgba(1, 92, 164 ,0.938813025210084) 19%, rgba(0,212,255,0) 52%);
+    z-index: 1001;
+}
+
+/* Barra bottom azul */
+.b_bottom{
+    background-color: #015CA4;
+}
+
+
+.container_button_swiper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.container_item_swiper{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    width: 80%;
+    min-width: 280px;
+    user-select: none;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto 2fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_item_swiper .description_swiper{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container_item_swiper > div.description_swiper{
+    grid-column-start: 1; /* start at column line 1 */
+    grid-column-end: 4; /* end at column line 4 */
+    text-align: center;
+    color: #DADDE0;
+    padding-bottom: 20px;
+    width: 90%;
+    min-width: 290px;
+    justify-self: center;
+}
+
+.container_item_swiper .description_swiper a{
+    background-color: #91dc55;
+    color: white;
+    padding: 13px 26px;
+    width: max-content;
+    cursor: pointer;
+    border-radius: 25px;
+    justify-self: center;
+    font-weight: 600;
+}
+
+.container_item_swiper .description_swiper a svg{
+    transform: translate(3px,5px);
+    font-size: 1.3rem;
+}
+
+.item-title{
+    max-width: 700px;
+    justify-self: center;
+    text-align: center;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    color: white;
+}
+
+
+.item-title{
+    text-align: center;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.container_item_swiper > p{
+    width: 100%;
+}
+
+.info{
+    text-align: center;
+    justify-self: center;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+
+    width: 100%;
+    max-width: 400px;
+    min-width: 280px;
+    margin: auto;
+    padding: .2rem;
+    background: rgba(255, 255, 255, 0.695);
+    border-radius: 10px;
+    font-weight: 500;
+    user-select: none;
+}
+
+
+/* 
+.mesa__divisa{
+    background-image: url(../../assets/HR-46.webp);
+    background-size: cover;
+    background-position: center;
+    object-fit:cover;
+}
+
+
+.mesa__divisa_dos{
+    background-image: url(../../assets/HR-48.webp);
+    background-size: cover;
+    background-position: center;
+    object-fit:cover;
+}
+
+.quezada__principal{
+    background-image: url(../../assets/HR-1.webp);
+    background-size: cover;
+    background-position: center;
+    object-fit:cover;
+} */
+
+
+
+.image_header_swiper img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1024px){
+    .swiper-wrapper, .swiper, .swiper-slide{
+        min-height: 300px;
+        transition: var(--transition);
+    }
+ }
+
+ @media screen and (max-width: 500px){
+    .container_item_swiper .swiper-wrapper, .container_item_swiper .swiper, .container_item_swiper .swiper-slide{
+        min-height: 270px;
+        max-height: 400px;
+        transition: var(--transition);
+    }
+
+    .caja_{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(1, 92, 164 );
+        background: linear-gradient(0deg, rgba(1, 92, 164 ,0.938813025210084) 39%, rgba(0,212,255,0) 95%);
+        z-index: 1001;
+    }
+
+    .container_item_swiper > p.description_swiper{
+        padding-bottom: 0px;
+        color: #EEEEEE;
+    }
+ }
+
+
+ @media screen and (min-width: 1500px){
+   .container_item_swiper .swiper-wrapper, .container_item_swiper .swiper, .container_item_swiper .swiper-slide{
+        min-height: 300px;
+        height: 500px;
+        transition: var(--transition);
+    }
+ }
