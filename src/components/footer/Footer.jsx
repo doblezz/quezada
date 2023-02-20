@@ -24,9 +24,7 @@ const Footer = () => {
           <div className="footer_logo">
             <h2>QUEZADA</h2>
             <p>
-              Con nosotros, nuestro servicio de cambio a dólar, euro y peso es
-              mas rápido y fácil que nunca! Contáctenos o pasa por nuestros
-              sucursales.
+              ¡En Quezada, los servicios de cambio a dolar, euro y peso son más rápidos y fáciles que nunca! Contáctanos o visita una de nuestras sucursales.
             </p>
           </div>
 

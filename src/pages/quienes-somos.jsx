@@ -54,7 +54,7 @@ const QuienesSomos = () => {
             <div className={styles.title_pinture}>
               <h2>Agente de cambio Quezada</h2>
               <p>La empresa ha crecido de manera exitosa gracias al apoyo familiar con el que ha contado el señor Quezada. Sus hijos, los licenciados, Edwim Arturo Quezada y Miguel Arturo Quezada, son parte primordial de la compañía, además de otros miembros de la familia. </p>
-              <p>Nos encontramos físicamente en toda la zona este del país, con sucursales en: La Romana, Higuey, Downtown Punta Cana, Friusa y Santo Domingo. Además, contamos con nuestra sexta sucursal totalmente en línea, en donde a través de nuestros canales digitales puedes realizar tu cambio sin la necesidad de salir de tu hogar u oficina, disponible en cualquier parte de República Dominicana.</p>
+              <p>Nos encontramos físicamente en toda la zona este del país, con sucursales en: La Romana, Higuey, Downtown Punta Cana, Friusa y Santo Domingo. Además, contamos con nuestra sexta sucursal totalmente <a href="/quezadaonline">en línea</a>, en donde a través de nuestros canales digitales puedes realizar tu cambio sin la necesidad de salir de tu hogar u oficina, disponible en cualquier parte de República Dominicana.</p>
             </div>
           </div>
         <div className={styles.caja_gradient}></div>

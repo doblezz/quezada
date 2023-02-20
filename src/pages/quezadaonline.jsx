@@ -126,7 +126,7 @@ useEffect(() => {
         <div className={styles.forma}>
           <h3>Forma parte de Quezada Online</h3>
 
-          <p>Solo le pedimos un minuto de su tiempo para dejarnos su información. Favor pulsar el butón para verificar sus datos.</p>
+          <p>Solo le pedimos un minuto de su tiempo para dejarnos su información. Favor pulsar el botón para verificar sus datos.</p>
 
           <button>SER PARTE</button>
         </div>

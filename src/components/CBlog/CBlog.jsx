@@ -48,7 +48,7 @@ const CBlog = () => {
             <div className="card_item">
               <div className="item_card">
                 <span className="data">10-10-2222</span>
-                <h2>Espertos en finanzas</h2>
+                <h2>Expertos en finanzas</h2>
                 <span className="line_item_blog"></span>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -78,7 +78,7 @@ const CBlog = () => {
             <div className="card_item">
               <div className="item_card">
                 <span className="data">10-10-2222</span>
-                <h2>Espertos en finanzas</h2>
+                <h2>Expertos en finanzas</h2>
                 <span className="line_item_blog"></span>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -108,7 +108,7 @@ const CBlog = () => {
             <div className="card_item">
               <div className="item_card">
                 <span className="data">10-10-2222</span>
-                <h2>Espertos en finanzas</h2>
+                <h2>Expertos en finanzas</h2>
                 <span className="line_item_blog"></span>
                 <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
